@@ -1,0 +1,124 @@
+
+
+
+@media screen and (min-width : 960px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "header header header"
+            "menu menu menu"
+            "intro intro intro"
+            "study study study"
+            "project project project";
+        justify-items: center;
+        align-items: center;
+    }
+    
+    #header {
+        grid-area: header;
+    }
+    
+    #menu {
+        grid-area: menu;
+    }
+
+    #intro {
+        grid-area: intro;
+    }
+    
+    #study {
+        grid-area: study;
+    }
+    
+    #project {
+        grid-area: project;
+    }
+
+    body {
+        background-color:yellow;
+    }
+}
+
+
+ @media screen and (min-width : 641px) and (max-width : 959px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+        "header header"
+        "menu menu"
+        "intro intro"
+        "study study"
+        "project project"
+        
+    }
+    
+    #header {
+        grid-area: header;
+    }
+    #menu {
+        grid-area: menu;
+    }
+    
+    #intro {
+        grid-area: intro;
+    }
+    
+    #study {
+        grid-area: study;
+    }
+    
+    #meandteam {
+        grid-area: meandteam;
+    }
+
+    #project{
+        grid-area : project;
+    }
+
+    body {
+        background-color: blue;
+    }
+}
+
+
+ @media screen and (max-width : 640px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+        "header"
+        "menu"
+        "intro"
+        "study"
+        "project"
+    }
+    
+    #header {
+        grid-area: header;
+    }
+    
+    #project{
+        grid-area : project;
+    }
+    
+    #intro {
+        grid-area: intro;
+    }
+    
+    #study {
+        grid-area: study;
+    }
+    
+    #project {
+        grid-area: project;
+    }
+
+    body {
+        background-color: yellow;
+    }
+}
