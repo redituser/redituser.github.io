@@ -578,13 +578,21 @@ p {
 }
 
 #about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
-  font-size: 28px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 50px;
   text-align: left;
 }
 
 #about .about-descr .separator {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
   max-width: 80%;
+  font-size: 50px;
   margin-bottom: 0;
   text-align: left;
 }
@@ -597,6 +605,12 @@ p {
   position: relative;
   padding-bottom: 80px;
 }
+
+.my-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 
 .services-block span {
   margin: 10px 0;
